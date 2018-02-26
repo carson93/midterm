@@ -54,19 +54,19 @@ next.addEventListener("click", function(){
         i1.src = "imgs/gears/h"+ch1+".png"
     } else if (b2.checked){
         ch2++
-        if (ch2 < 3){
+        if (ch2 > 3){
             ch2 = 1
         }
         i2.src = "imgs/gears/b"+ch2+".png"
     } else if (b3.checked){
         ch3++
-        if (ch3 < 3){
+        if (ch3 > 3){
             ch3 = 1
         }
         i3.src = "imgs/gears/l"+ch3+".png"
     } else if (b4.checked){
         ch4++
-        if (ch4 < 3){
+        if (ch4 > 3){
             ch4 = 1
         }
         i4.src = "imgs/gears/f"+ch4+".png"
