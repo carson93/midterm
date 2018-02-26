@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Midterm</title>
+        <link href="demo.css" rel="stylesheet" type="text/css" />
+        <link href="menu.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <div id="menu">
+            <img src="imgs/down.png" id="downImg" />
+            <div id="links">
+                <a href="index.html">Index</a>
+                <hr />
+                <a href="demo.html">Demo</a>
+            </div>
+        </div>
+        
+        <div id="demo">
+            <div class="button">
+                <input type="radio" class="demoR" name="demo" id="hatButton"/>
+                <img src="imgs/gears/h1.png" id="hatImg" class="buttonImg"/>
+            </div>
+            <div class="button">
+                <input type="radio" class="demoR" name="demo" id="bodyButton"/>
+                <img src="imgs/gears/b1.png" id="bodyImg" class="buttonImg"/>
+            </div>
+            <div class="button">
+                <input type="radio" class="demoR" name="demo" id="legButton"/>
+                <img src="imgs/gears/l1.png" id="legImg" class="buttonImg"/>
+            </div>
+            <div class="button">
+                <input type="radio" class="demoR" name="demo" id="footButton"/>
+                <img src="imgs/gears/f1.png" id="footImg" class="buttonImg"/>
+            </div>
+            <hr />
+            
+            <input type="text" id="combo" placeholder="Type your combo here" />
+            <button id="prev">Prev</button>
+            <button id="next">Next</button>
+        </div>
+        
+        <script src="demo.js"></script>
+        <script src="menu.js"></script>
+    </body>
+    
+</html>

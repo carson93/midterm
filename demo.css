@@ -1,0 +1,18 @@
+#demo {
+    position:relative;
+    text-align:center;
+    width:70vw;
+    height:70vh;
+    top:100px;
+    left:0px;
+    right:0px;
+    margin:auto;
+}
+
+.button {
+    width:100%;
+}
+
+.buttonImg {
+    height:100px;
+}
